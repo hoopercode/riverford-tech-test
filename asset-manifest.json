@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/riverford-tech-test/static/css/main.0c54cf6b.chunk.css",
+    "main.js": "/riverford-tech-test/static/js/main.cbd78f9e.chunk.js",
+    "main.js.map": "/riverford-tech-test/static/js/main.cbd78f9e.chunk.js.map",
+    "runtime-main.js": "/riverford-tech-test/static/js/runtime-main.865b3bae.js",
+    "runtime-main.js.map": "/riverford-tech-test/static/js/runtime-main.865b3bae.js.map",
+    "static/js/2.aa3c014b.chunk.js": "/riverford-tech-test/static/js/2.aa3c014b.chunk.js",
+    "static/js/2.aa3c014b.chunk.js.map": "/riverford-tech-test/static/js/2.aa3c014b.chunk.js.map",
+    "static/js/3.3bfaffb0.chunk.js": "/riverford-tech-test/static/js/3.3bfaffb0.chunk.js",
+    "static/js/3.3bfaffb0.chunk.js.map": "/riverford-tech-test/static/js/3.3bfaffb0.chunk.js.map",
+    "index.html": "/riverford-tech-test/index.html",
+    "static/css/main.0c54cf6b.chunk.css.map": "/riverford-tech-test/static/css/main.0c54cf6b.chunk.css.map",
+    "static/js/2.aa3c014b.chunk.js.LICENSE.txt": "/riverford-tech-test/static/js/2.aa3c014b.chunk.js.LICENSE.txt",
+    "static/media/RHS-Rotated.6cacab3b.png": "/riverford-tech-test/static/media/RHS-Rotated.6cacab3b.png",
+    "static/media/Spinner.16713533.png": "/riverford-tech-test/static/media/Spinner.16713533.png",
+    "static/media/button-bg.989ab6e8.png": "/riverford-tech-test/static/media/button-bg.989ab6e8.png",
+    "static/media/trialRotate.4ce54a2a.png": "/riverford-tech-test/static/media/trialRotate.4ce54a2a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.865b3bae.js",
+    "static/js/2.aa3c014b.chunk.js",
+    "static/css/main.0c54cf6b.chunk.css",
+    "static/js/main.cbd78f9e.chunk.js"
+  ]
+}
