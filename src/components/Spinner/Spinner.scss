@@ -19,6 +19,12 @@
       margin-bottom: 20vh;
 
     }
+
+    @include ipad {
+      width: 20vw;
+      margin-bottom: 20vh;
+
+    }
   }
   @keyframes rotation {
     from {

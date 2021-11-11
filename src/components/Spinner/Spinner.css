@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Cambay&family=Noto+Sans:wght@1200&family=Public+Sans:wght@500&display=swap");
 .spinnerIcon {
   display: flex;
   flex-direction: column;
@@ -13,6 +14,12 @@
 @media screen and (max-width: 480px) {
   .spinnerIcon__image {
     width: 10vw;
+    margin-bottom: 20vh;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .spinnerIcon__image {
+    width: 20vw;
     margin-bottom: 20vh;
   }
 }
