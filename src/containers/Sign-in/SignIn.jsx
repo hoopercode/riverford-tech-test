@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Form from "../../components/Form/Form.jsx";
-import lhsIllustration from "../../assets/images/LHS-Rotated.png";
+import lhsIllustration from "../../assets/images/trialRotate.png";
 import rhsIllustration from "../../assets/images/RHS-Rotated.png";
 import Spinner from "../../components/Spinner/Spinner";
 import confirm from "../../assets/images/button-bg.png";
