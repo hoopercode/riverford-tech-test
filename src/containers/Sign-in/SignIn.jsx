@@ -34,9 +34,9 @@ const SignIn = () => {
           signInStatus ? "signIn__form" : "signIn__form--inactive"
         }`}
       >
-        <div className="signIn__header">
-        <h1>Sign Up</h1>
-      </div>
+        
+        <h1 className="signIn__header">Sign Up</h1>
+      
         <Form toggleSignIn={toggleSignIn} />
       </div>
       <div

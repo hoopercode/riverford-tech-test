@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cambay&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cambay&family=Noto+Sans&family=Public+Sans:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -24,6 +24,8 @@
   }
 }
 .signIn__header {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 1200;
   margin-top: 5vh;
   display: flex;
   justify-content: center;
@@ -86,7 +88,7 @@
   display: none;
 }
 .signIn__image--right {
-  width: 45vw;
+  width: 40vw;
   margin-left: 150px;
   margin-bottom: 50px;
 }
@@ -99,7 +101,10 @@
   }
 }
 .signIn__image--left {
-  width: 20vw;
+  position: absolute;
+  top: 30%;
+  left: -1%;
+  width: 22vw;
 }
 @media screen and (max-width: 480px) {
   .signIn__image--left {

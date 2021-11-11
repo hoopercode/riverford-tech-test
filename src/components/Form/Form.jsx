@@ -1,10 +1,16 @@
-import React from "react";
+import React, {useState} from "react";
 import "./Form.scss";
 import confirm from "../../assets/images/button-bg.png"
 
 const Form = (props) => {
   const {toggleSignIn} = props;
+  const [passwordShown, setPasswordShown] = useState(false)
 
+  const togglePassword = (e) => {
+    setPasswordShown(!passwordShown)
+    e.preventDefault()
+    
+  }
   return (
     <>
     <form action="/action_page.php">
@@ -27,10 +33,11 @@ const Form = (props) => {
           </label>
           <input
             className="container__box"
-            type="password"
+            type={passwordShown ? "text" : "password"}
             name="password"
             required
           />
+          <button className="container__show-button"onClick={togglePassword}>show</button>
         </div>
         <div className="container__item  container__item--phone">
           <label className="container__label" for="phone">

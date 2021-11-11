@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Spinner.scss"
-import SpinnerImage from "../../assets/images/newerSpinnerB.png"
+import SpinnerImage from "../../assets/images/Spinner.png"
 
 const Spinner = () => {
   return (
