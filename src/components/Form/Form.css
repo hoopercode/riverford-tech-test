@@ -37,6 +37,7 @@
   background: transparent;
   border: none;
   text-decoration: underline;
+  cursor: pointer;
 }
 .container__item {
   display: flex;
