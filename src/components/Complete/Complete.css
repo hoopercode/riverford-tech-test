@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Cambay&display=swap");
+.complete {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 25vh;
+  width: 30vw;
+}
+@media screen and (max-width: 480px) {
+  .complete {
+    width: 80vw;
+    height: 30vh;
+  }
+}
+.complete__content {
+  text-align: center;
+  font-family: "Cambay", sans-serif;
+  font-size: 1.2rem;
+}
+.complete__image {
+  width: 6vw;
+  height: auto;
+}
+@media screen and (max-width: 480px) {
+  .complete__image {
+    width: 15vw;
+    height: auto;
+  }
+}

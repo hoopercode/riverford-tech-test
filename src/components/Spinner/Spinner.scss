@@ -1,0 +1,31 @@
+@use "../../SASS/sass-utils/mixins"as *;
+@use "../../SASS/sass-utils/variables"as *;
+
+.spinnerIcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+
+  &__image {
+    animation: rotation 1.5s infinite linear;
+    width: 5vw;
+    height: auto;
+
+    @include mobile {
+      width: 10vw;
+      margin-bottom: 20vh;
+
+    }
+  }
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}

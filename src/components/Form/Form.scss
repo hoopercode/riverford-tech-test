@@ -1,0 +1,143 @@
+@use "../../SASS/sass-utils/mixins"as *;
+@use "../../SASS/sass-utils/variables"as *;
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container {
+  margin-top: 10vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(7, 1fr);
+  gap: 20px 30px;
+  width: 50vw;
+
+  @include mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85vw;
+  }
+
+
+  
+
+  @include mobile {
+    font-size: 1.15em;
+    grid-area: 1 / 1 / 2 / 2;
+
+  }
+  
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    @include mobile {
+      width: 100%;
+    }
+  }
+
+
+  &__item--info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    grid-area: 3 / 1 / 5 / 2;
+
+  }
+
+  &__item--confirm {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    grid-area: 6 / 1 / 8 / 3;
+
+  
+
+    @include mobile {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+
+    }
+  }
+
+  &__item--confirm:hover {
+  cursor: pointer;
+  }
+
+  &__box {
+    padding: 0 10px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid lightgray;
+    font-size: 1rem;
+
+  }
+
+  &__box--phone {
+    font-size: 1rem;
+    width: 60%;
+    height: 40px;
+    border: 1px solid lightgray;
+  }
+
+  &__box--info {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    width: 100%;
+    height: 110px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 70px;
+    border: 1px solid lightgray;
+    resize: none;
+    
+  }
+
+  &__label {
+    margin-bottom: 0.6em;
+    font-size: 0.8em;
+    font-family: $font-body;
+  }
+
+  &__button {
+    position: absolute;
+    display: block;
+
+    @include mobile {
+      position: inherit;
+      width: 85vw;
+    
+    }
+
+  }
+
+  &__button-text {
+    position: absolute;
+    color: white;
+    font-weight: 600;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    @include mobile {
+    
+      top: 50%;
+      left: 50%;
+      
+  
+    }
+  }
+ 
+}

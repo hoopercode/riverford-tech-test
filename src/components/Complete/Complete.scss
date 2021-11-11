@@ -1,0 +1,37 @@
+@use "../../SASS/sass-utils/mixins"as *;
+@use "../../SASS/sass-utils/variables"as *;
+
+.complete {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 25vh;
+  width: 30vw;
+
+  @include mobile {
+    width: 80vw;
+    height: 30vh;
+
+  }
+
+  &__content {
+    text-align: center;
+    font-family: $font-body;
+    font-size: 1.2rem;
+  }
+
+  &__image {
+    width: 6vw;
+      height: auto;
+
+    @include mobile {
+      width: 15vw;
+      height: auto;
+
+    }
+
+  }
+
+
+}

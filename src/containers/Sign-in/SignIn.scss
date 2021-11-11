@@ -1,0 +1,136 @@
+@use "../../SASS/sass-utils/mixins"as *;
+@use "../../SASS/sass-utils/variables"as *;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.signIn {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #F8F5F0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+
+  @include mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+
+  }
+
+  &__header {
+    margin-top:5vh;
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    grid-area: 1 / 2 / 2 / 3;
+
+  }
+
+  &__form {
+    margin-top: 7vh;
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  &__form--inactive {
+    display: none;
+  }
+
+  &__spinner--active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  &__spinner--inactive {
+    display: none;
+  }
+
+  &__complete--active {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 15vh;
+    grid-area: 1 / 2 / 2 / 3;
+
+    @include mobile {
+      margin-top: 5vh;
+      justify-content: space-between;
+    }
+    
+  }
+
+  &__complete--inactive {
+    display: none;
+  }
+
+
+  &__leftIllustration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    overflow: hidden;
+
+  }
+
+  &__leftIllustration--inactive {
+    display: none;
+  }
+
+
+  &__rightIllustration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 150px;
+    overflow: hidden;
+    grid-area: 1 / 3 / 2 / 4;
+
+
+
+  }
+
+  &__rightIllustration--inactive {
+    display: none;
+  }
+
+  &__image--right {
+    width: 45vw;
+    margin-left: 150px;
+    margin-bottom: 50px;
+
+    @include mobile {
+      position: absolute;
+      width: 35vw;
+      top: 2%;
+      right: -10%;
+    }
+  }
+
+  &__image--left {
+    width: 20vw;
+
+    @include mobile {
+      position: absolute;
+      top: 5%;
+      left: -2%;
+    }
+  }
+
+
+
+}
