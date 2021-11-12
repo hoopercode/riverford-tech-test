@@ -1,15 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Form.scss";
 import confirm from "../../assets/images/button-bg.png";
 
 const Form = (props) => {
-  const { toggleSignIn } = props;
-  const [passwordShown, setPasswordShown] = useState(false);
+  const { toggleSignIn, togglePassword, passwordShown } = props;
+  
 
-  const togglePassword = (e) => {
-    setPasswordShown(!passwordShown);
-    e.preventDefault();
-  };
+ 
   return (
     <>
       <form action="/action_page.php">

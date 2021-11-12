@@ -10,6 +10,13 @@ const SignIn = () => {
   const [signInStatus, setSignInStatus] = useState(true);
   const [loadingStatus, setLoadingStatus] = useState(false);
   const [signUpComplete, setSignUpComplete] = useState(false);
+  const [passwordShown, setPasswordShown] = useState(false);
+
+
+  const togglePassword = (e) => {
+    setPasswordShown(!passwordShown);
+    e.preventDefault();
+  };
 
   const toggleSuccess = () => {
     setSignUpComplete(!signUpComplete);
@@ -35,7 +42,7 @@ const SignIn = () => {
       >
         <h1 className="signIn__header">Sign Up</h1>
 
-        <Form toggleSignIn={toggleSignIn} />
+        <Form toggleSignIn={toggleSignIn} togglePassword={togglePassword} passwordShown={passwordShown}/>
       </div>
       <div
         className={`${
