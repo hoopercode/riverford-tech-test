@@ -22,6 +22,7 @@
     width: 85vw;
     font-size: 1.15rem;
   }
+
   @include ipad {
     display: flex;
     flex-direction: column;
@@ -101,13 +102,14 @@
     font-size: 1rem;
 
     @include mobile {
-    width: 85vw;
-    
+      width: 85vw;
+
     }
+
     @include ipad {
       width: 85vw;
-      
-      }
+
+    }
   }
 
 
@@ -121,8 +123,8 @@
 
     @include ipad {
       width: 50vw;
-    
-      }
+
+    }
 
   }
 
@@ -139,8 +141,8 @@
 
     @include ipad {
       width: 85vw;
-      
-      }
+
+    }
   }
 
   &__label {
@@ -158,10 +160,11 @@
       width: 85vw;
 
     }
+
     @include ipad {
       position: inherit;
       width: 50vw;
-    
+
 
     }
 
