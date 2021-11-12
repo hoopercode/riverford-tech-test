@@ -26,7 +26,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
     width: 85vw;
     font-size: 1.15rem;
   }
@@ -161,7 +160,8 @@
     }
     @include ipad {
       position: inherit;
-      width: 85vw;
+      width: 50vw;
+    
 
     }
 
