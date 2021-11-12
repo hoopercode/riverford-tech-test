@@ -15,10 +15,18 @@
 
   }
 
+  @include ipad {
+    width: 50vw;
+    height: 30vh;
+
+  }
+
   &__content {
     text-align: center;
     font-family: $font-body;
     font-size: 1.2rem;
+
+   
   }
 
   &__image {
@@ -27,6 +35,12 @@
 
     @include mobile {
       width: 15vw;
+      height: auto;
+
+    }
+
+    @include ipad {
+      width: 10vw;
       height: auto;
 
     }
