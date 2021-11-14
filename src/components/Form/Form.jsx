@@ -4,13 +4,11 @@ import confirm from "../../assets/images/button-bg.png";
 
 const Form = (props) => {
   const { toggleSignIn, togglePassword, passwordShown } = props;
-  
 
- 
   return (
     <>
       <form action="/action_page.php">
-        <div class="form">
+        <div className="form">
           <div className="form__item form__item--name">
             <label className="form__label" for="name">
               Name
@@ -52,7 +50,7 @@ const Form = (props) => {
           </div>
 
           <div className="form__item form__item--info">
-            <label className="form__label" for="moreInfo">
+            <label className="form__label" for="more-info">
               How did you hear about us?
             </label>
             <textarea
@@ -60,7 +58,7 @@ const Form = (props) => {
               type="text"
               cols="40"
               rows="5"
-              name="moreInfo"
+              name="more-info"
             />
           </div>
 

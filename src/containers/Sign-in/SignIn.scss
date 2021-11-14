@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-.signIn {
+.sign-in {
   position: relative;
   height: 100vh;
   width: 100vw;
@@ -81,7 +81,7 @@
   }
 
 
-  &__leftIllustration {
+  &__left-illustration {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -91,12 +91,12 @@
 
   }
 
-  &__leftIllustration--inactive {
+  &__left-illustration--inactive {
     display: none;
   }
 
 
-  &__rightIllustration {
+  &__right-illustration {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,7 +107,7 @@
 
   }
 
-  &__rightIllustration--inactive {
+  &__right-illustration--inactive {
     display: none;
   }
 

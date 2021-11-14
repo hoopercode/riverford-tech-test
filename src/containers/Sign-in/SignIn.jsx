@@ -30,25 +30,25 @@ const SignIn = () => {
   };
 
   return (
-    <div className="signIn">
-      <div className="signIn__leftIllustration">
-        <img className="signIn__image--left" src={lhsIllustration} alt="" />
+    <div className="sign-in">
+      <div className="sign-in__left-illustration">
+        <img className="sign-in__image--left" src={lhsIllustration} alt="" />
       </div>
 
       <div
         className={`${
-          signInStatus ? "signIn__form" : "signIn__form--inactive"
+          signInStatus ? "sign-in__form" : "sign-in__form--inactive"
         }`}
       >
-        <h1 className="signIn__header">Sign Up</h1>
+        <h1 className="sign-in__header">Sign Up</h1>
 
         <Form toggleSignIn={toggleSignIn} togglePassword={togglePassword} passwordShown={passwordShown}/>
       </div>
       <div
         className={`${
           loadingStatus
-            ? "signIn__spinner--active"
-            : "signIn__spinner--inactive"
+            ? "sign-in__spinner--active"
+            : "sign-in__spinner--inactive"
         }`}
       >
         <Spinner />
@@ -56,14 +56,14 @@ const SignIn = () => {
       <div
         className={`${
           signUpComplete
-            ? "signIn__complete--active"
-            : "signIn__complete--inactive"
+            ? "sign-in__complete--active"
+            : "sign-in__complete--inactive"
         }`}
       >
         <Complete />
       </div>
-      <div className="signIn__rightIllustration">
-        <img className="signIn__image--right" src={rhsIllustration} alt="" />
+      <div className="sign-in__right-illustration">
+        <img className="sign-in__image--right" src={rhsIllustration} alt="" />
       </div>
     </div>
   );

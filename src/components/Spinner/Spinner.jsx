@@ -4,10 +4,11 @@ import SpinnerImage from "../../assets/images/Spinner.png";
 
 const Spinner = () => {
   return (
-    <div className="spinnerIcon">
-      <img className="spinnerIcon__image" src={SpinnerImage} alt="" />
+    <div className="spinner-icon">
+      <img className="spinner-icon__image" src={SpinnerImage} alt="" />
     </div>
   );
 };
 
 export default Spinner;
+  
