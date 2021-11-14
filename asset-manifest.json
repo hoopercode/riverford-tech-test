@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/riverford-tech-test/static/css/main.ce69d2c9.chunk.css",
-    "main.js": "/riverford-tech-test/static/js/main.deb49c48.chunk.js",
-    "main.js.map": "/riverford-tech-test/static/js/main.deb49c48.chunk.js.map",
+    "main.css": "/riverford-tech-test/static/css/main.4a12bc75.chunk.css",
+    "main.js": "/riverford-tech-test/static/js/main.d06ab666.chunk.js",
+    "main.js.map": "/riverford-tech-test/static/js/main.d06ab666.chunk.js.map",
     "runtime-main.js": "/riverford-tech-test/static/js/runtime-main.865b3bae.js",
     "runtime-main.js.map": "/riverford-tech-test/static/js/runtime-main.865b3bae.js.map",
     "static/js/2.aa3c014b.chunk.js": "/riverford-tech-test/static/js/2.aa3c014b.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.3bfaffb0.chunk.js": "/riverford-tech-test/static/js/3.3bfaffb0.chunk.js",
     "static/js/3.3bfaffb0.chunk.js.map": "/riverford-tech-test/static/js/3.3bfaffb0.chunk.js.map",
     "index.html": "/riverford-tech-test/index.html",
-    "static/css/main.ce69d2c9.chunk.css.map": "/riverford-tech-test/static/css/main.ce69d2c9.chunk.css.map",
+    "static/css/main.4a12bc75.chunk.css.map": "/riverford-tech-test/static/css/main.4a12bc75.chunk.css.map",
     "static/js/2.aa3c014b.chunk.js.LICENSE.txt": "/riverford-tech-test/static/js/2.aa3c014b.chunk.js.LICENSE.txt",
     "static/media/RHS-Rotated.6cacab3b.png": "/riverford-tech-test/static/media/RHS-Rotated.6cacab3b.png",
     "static/media/Spinner.16713533.png": "/riverford-tech-test/static/media/Spinner.16713533.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.865b3bae.js",
     "static/js/2.aa3c014b.chunk.js",
-    "static/css/main.ce69d2c9.chunk.css",
-    "static/js/main.deb49c48.chunk.js"
+    "static/css/main.4a12bc75.chunk.css",
+    "static/js/main.d06ab666.chunk.js"
   ]
 }
